@@ -1,0 +1,7 @@
+name: Rebase branch on top of specific commit or branch
+command: git rebase --onto {{new_base_branch}} {{old_base_branch}}
+arguments:
+  - name: new_base_branch
+    description: The name or hash of the new base branch of your active branch
+  - name: old_base_branch
+    description: The name or hash of the old base branch of your active branch
